@@ -265,18 +265,6 @@ header#Home {
   transform: translateY(-2px);
 }
 
-.boutonSecondaire {
-  border: 1px solid var(--primary-light);
-  background: transparent;
-  color: var(--primary);
-}
-
-.boutonSecondaire:hover {
-  background: rgba(255, 255, 255, 0.8);
-  transform: translateY(-2px);
-  cursor: pointer;
-}
-
 /* À propos */
 #ContainerAbout {
   min-height: 100vh;
