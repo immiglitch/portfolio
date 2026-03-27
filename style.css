@@ -432,7 +432,20 @@ header#Home {
 }
 
 .parcours-icon {
-  font-size: 1.4rem;
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #edf4e8;
+  color: var(--primary);
+  border: 1px solid var(--border);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.parcours-icon i {
   line-height: 1;
 }
 
